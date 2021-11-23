@@ -1,0 +1,5 @@
+.terraform
+terraform-modules/.terraform
+credentials.json
+.terraform.lock.hcl
+target
