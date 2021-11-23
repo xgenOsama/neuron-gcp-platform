@@ -15,6 +15,6 @@ module "mc2_bigquery_datasets_tf12" {
   program = "mc2"
   stage = "nonlive"
   additional_local_markets = ["al"]
-  disable_qlik_accounts = []
+  disable_qlik_accounts = ["es"]
   //region = "europe-west1"
 }
